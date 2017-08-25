@@ -1,0 +1,30 @@
+/* Codecademy Intensive Pro "Build Websites From Scratch": Unit 4, Days 9-13. Submission by P.Mroz. */
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+nav{
+  display: flex;
+  padding-right: 40px;
+}
+div.logo{
+  display: flex;
+  padding-left: 30px;
+}
+.categories span{
+  display: inline-block;
+  padding: 20px;
+}
+.categories a{
+  color: black;
+}
+.logotype {
+  color: MediumAquamarine;
+  padding: 20px 10px;
+  align-content: center;
+}
