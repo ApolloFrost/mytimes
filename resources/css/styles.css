@@ -1,14 +1,16 @@
 /* Codecademy Intensive Pro "Build Websites From Scratch": Unit 4, Days 9-13. Submission by P.Mroz. */
+
+/* HEADER STYLES */
 header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
 }
-nav{
+nav.categories{
   display: flex;
   padding-right: 40px;
 }
@@ -27,4 +29,41 @@ div.logo{
   color: MediumAquamarine;
   padding: 20px 10px;
   align-content: center;
+}
+
+/* MAIN BODY STYLES*/
+section.main{
+  display: flex;
+  justify-content: center;
+}
+div.column {
+  display: flex;
+}
+div.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 3px solid black;
+}
+div.article {
+  border: 1px dotted black;
+}
+.caption{
+  border: 1px solid black;
+}
+.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 3px solid black;
+  margin: 0px 50px;
+}
+.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
 }
