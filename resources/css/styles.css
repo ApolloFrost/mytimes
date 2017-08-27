@@ -1,6 +1,9 @@
 /* Codecademy Intensive Pro "Build Websites From Scratch": Unit 4, Days 9-13. Submission by P.Mroz. */
 
 /*** HEADER STYLES ***/
+body{
+  margin-top: 0px;
+}
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -8,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  padding-bottom: 5px;
+  padding: 5px 0px 5px 0px;
   position: fixed;
   width: 100%;
   background-color: white;
@@ -40,9 +43,9 @@ div.logo{
 /* Primary Containters*/
 section.main{
   display: flex;
-  justify-content: center;
-  position: relative;
-  padding-top: 120px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
   z-index: 5;
 }
 div.column {
