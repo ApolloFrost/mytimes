@@ -162,3 +162,29 @@ h2.small_title {
   background-image: url("../images/img-story-1.png");
   Margin: 15px 0px;
 }
+
+/*** FOOTER STYLES ***/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer a{
+  color: black;
+  margin: 0px 10px;
+}
+#foot_title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+  margin-right: 20px;
+}
